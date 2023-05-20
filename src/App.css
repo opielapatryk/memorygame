@@ -1,0 +1,16 @@
+.game-board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    height: 90vh;
+    width: 90vh;
+    border: 1px solid #444;
+}
+
+.tile{
+    background: #ddd;   
+    border: 1px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
